@@ -1,0 +1,70 @@
+.cnumber {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.vnumber {
+    font-size: smaller;
+}
+
+.chapter {
+    margin-bottom: 5px;
+}
+
+body {
+    font-family: Georgia, Times, Times New Roman, serif;
+    line-height: 1.1;
+}
+
+#app {
+    margin-top: 55px;
+}
+
+.col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+nav {
+    border-bottom: solid 1px lightgray;
+}
+
+a {
+    outline: 0;
+}
+
+.bookBtn {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.dropdown {
+    z-index: 18998;
+  }
+
+@media (min-width: 768px) {
+    .col {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.navbar .dropdown-menu {
+    position: absolute;
+    right: 0;
+    left: auto;
+  }
+
+  .dropdown-menu {
+    min-width: 3rem;
+
+  }
+
+  .btn {
+      line-height: 1;
+  }
+
+  #searchinput {
+    height: 30px;
+    max-width: 80px;
+  }
