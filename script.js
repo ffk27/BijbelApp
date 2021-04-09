@@ -55,7 +55,7 @@ const navbarcomp = {
     bibleids: ['NBV', 'NBG51', 'NeÜ'],
     html: '',
     init: function() {
-        this.html = `
+        this.html = /* html */`
         <nav class="navbar fixed-top navbar-light bg-light">
         <a class="navbar-brand" onclick="showPage(booklistcomp)">BijbelApp</a>
         <!--<form class="form-inline">
@@ -90,7 +90,7 @@ const booklistcomp = {
         return `<p class="bookBtn"><button type="button" class="btn btn-secondary btn-block" onclick="selectBook(${bible.books.indexOf(book)})">${book.bname}</button></p>`
     },
     init: function() {
-        this.html = `
+        this.html = /* html */`
         <div class="row row-cols-2 " id="booklist" align="center">
             <div class="col">
             <h3>OT</h3>
